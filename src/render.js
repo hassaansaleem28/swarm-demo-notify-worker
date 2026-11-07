@@ -1,4 +1,4 @@
-const marked = require('marked');
+const { marked } = require('marked');
 
 // Notification bodies come from users, so raw HTML in them must never reach
 // an inbox as HTML.
